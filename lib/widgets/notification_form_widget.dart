@@ -5,16 +5,16 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
 import 'package:flutter/material.dart';
-import 'package:flutter_fcm/shared/configuration/configuration.dart';
-import 'package:flutter_fcm/shared/models/firebase_cloud_messaging/to.dart';
-import 'package:flutter_fcm/shared/services/send_notification_service.dart';
+import 'package:flutter_fcm_package/shared/configuration/configuration.dart';
+import 'package:flutter_fcm_package/shared/models/firebase_cloud_messaging/to.dart';
+import 'package:flutter_fcm_package/shared/services/send_notification_service.dart';
 
 import 'package:http/http.dart' as http;
 
-import 'package:flutter_fcm/shared/models/firebase_cloud_messaging/message.dart';
+import 'package:flutter_fcm_package/shared/models/firebase_cloud_messaging/message.dart';
 
-import 'package:flutter_fcm/shared/models/firebase_cloud_messaging/notification.dart';
-import 'package:flutter_fcm/shared/models/notification_message.dart';
+import 'package:flutter_fcm_package/shared/models/firebase_cloud_messaging/notification.dart';
+import 'package:flutter_fcm_package/shared/models/notification_message.dart';
 import 'package:uuid/uuid.dart';
 
 class NotificationForm extends StatefulWidget {

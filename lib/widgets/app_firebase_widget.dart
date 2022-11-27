@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_fcm/shared/configuration/firebase_options.dart';
-import 'package:flutter_fcm/shared/types/types.dart';
-import 'package:flutter_fcm/widgets/messaging_widget.dart';
+import 'package:flutter_fcm_package/shared/configuration/firebase_options.dart';
+import 'package:flutter_fcm_package/shared/types/types.dart';
+import 'package:flutter_fcm_package/widgets/messaging_widget.dart';
 
 class AppFirebase extends StatefulWidget {
   WidgetFunction child;

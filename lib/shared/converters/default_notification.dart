@@ -1,7 +1,7 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart'
     show TargetPlatform, defaultTargetPlatform, kIsWeb;
-import 'package:flutter_fcm/shared/models/notification_message.dart';
+import 'package:flutter_fcm_package/shared/models/notification_message.dart';
 import 'package:uuid/uuid.dart';
 
 class DefaultNotifications {

@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_fcm/shared/models/firebase_cloud_messaging/notification.dart';
+import 'package:flutter_fcm_package/shared/models/firebase_cloud_messaging/notification.dart';
 
 import 'package:json_annotation/json_annotation.dart';
 

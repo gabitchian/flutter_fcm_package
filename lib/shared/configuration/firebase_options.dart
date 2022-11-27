@@ -3,7 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
-import 'package:flutter_fcm/shared/configuration/configuration.dart';
+import 'package:flutter_fcm_package/shared/configuration/configuration.dart';
 
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
